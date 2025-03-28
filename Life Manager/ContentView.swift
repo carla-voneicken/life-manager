@@ -14,6 +14,9 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("This is Life Manager")
+            Text("This is another text field")
+                .font(.subheadline)
+                .foregroundColor(.secondary)
         }
         .padding()
     }
