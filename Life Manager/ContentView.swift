@@ -18,6 +18,7 @@ struct ContentView: View {
             HStack {
                 Text("Test")
                 Image(systemName: "plus")
+                Image(systemName: "minus")
             }
             
             Text("This is another text field")
