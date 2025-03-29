@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
+        VStack {
             Image(systemName: "person.circle.fill")
                 .imageScale(.large)
                 .foregroundStyle(.purple)
@@ -21,13 +21,13 @@ struct ContentView: View {
                 Image(systemName: "minus")
                 
             }
+            .padding()
             
             Text("This is another text field")
                 .font(.subheadline)
                 .foregroundColor(.secondary)
 
         }
-        .padding()
     }
 }
 
