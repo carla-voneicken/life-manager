@@ -12,7 +12,7 @@ struct ContentView: View {
         HStack {
             Image(systemName: "person.circle.fill")
                 .imageScale(.large)
-                .foregroundStyle(.red)
+                .foregroundStyle(.purple)
             Text("This is Life Manager")
             
             HStack {
